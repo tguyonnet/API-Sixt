@@ -13,7 +13,7 @@ use \RedBeanPHP\R as R;
 
 
 
-R::setup('mysql:host=localhost;dbname=sixt_slam3_v0','userapi','pwapi'); //connect to data base.
+R::setup('mysql:host=localhost;dbname=api-sixt','userapi','pwapi'); //connect to data base.
 
 $dataGenerator = Faker\Factory::create('fr_FR');
 
