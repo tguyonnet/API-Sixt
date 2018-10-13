@@ -19,8 +19,8 @@ Ensuite, pour utiliser l'[API](https://github.com/tguyonnet/api-sixt/archive/mas
 'composer update' à la racine du projet).
 
 L'[API](https://github.com/tguyonnet/api-sixt/archive/master.zip) dépend des frameworks suivant :
-- [Slim](https://www.slimframework.com/) -> composer require slim/slim
-- [Redbean](https://www.redbeanphp.com/index.php) -> composer require gabordemooij/redbean
+- **[Slim]**(https://www.slimframework.com/) -> composer require slim/slim
+- **[Redbean]**(https://www.redbeanphp.com/index.php) -> composer require gabordemooij/redbean
 
 
 
@@ -29,31 +29,31 @@ L'[API](https://github.com/tguyonnet/api-sixt/archive/master.zip) dépend des fr
 ----------------------------------------------
 
 * liste de toutes les agences :
-> tpapi.test/agency
+*tpapi.test/agency*
 
 
 * Informations d'une agence (code, adresse, code postal, ville) :
-> tpapi.test/agency/{agency_id}
+*tpapi.test/agency/{agency_id}*
 
 
 * Liste des types de véhicules d'une agence :
-> tpapi.test/agency/{agency_id}/vehicle
+*tpapi.test/agency/{agency_id}/vehicle*
 
 
 * Liste des véhicules disponibles d'une agence :
-> tpapi.test/agency/{agency_id}/{model_id}/{start_date}/{end_date}
+*tpapi.test/agency/{agency_id}/{model_id}/{start_date}/{end_date}*
 
 
 * Liste des réservations du client :
-> tpapi.test/rental/{customer_id}
+*tpapi.test/rental/{customer_id}*
 
 
 * Liste des réservations du client depuis une date:
-> tpapi.test/rental/{customer_id}/{start_date}
+*tpapi.test/rental/{customer_id}/{start_date}*
 
 
 * Enregistrer une réservation :
-> tpapi.test/rental/create/{vehicle_id}/{start_date}/{end_date}/{kilometers}/{start_agency_id}/{end_agency_id}/{customer_id}
+*tpapi.test/rental/create/{vehicle_id}/{start_date}/{end_date}/{kilometers}/{start_agency_id}/{end_agency_id}/{customer_id}*
 
 
 
@@ -61,7 +61,7 @@ L'[API](https://github.com/tguyonnet/api-sixt/archive/master.zip) dépend des fr
 ## Exemples de fonctionnalités
 ----------------------------------------------
 
-L'adresse http://tpapi.test/agency/6
+L'adresse **http://tpapi.test/agency/6**
 Revoi les détails de l'agence avec l'id 6.
 
 > id:         "6" address:	"48, Rue Jean Mermoz" ville: "Évreux" postcode:	"27000"
