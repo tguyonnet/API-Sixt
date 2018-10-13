@@ -1,6 +1,6 @@
-<h1>API-Sixt - Documentation</h1>
+# API-Sixt - Documentation
 
-Qu'est ce que c'est ?
+## Qu'est ce que c'est ?
 ----------------------------------------------
 
 Cette API est destinée aux clients grand comptes de la société SIXT, 
@@ -11,7 +11,7 @@ vers le site de la société.
 
 
 
-Comment utiliser l'API ?
+## Comment utiliser l'API ?
 ----------------------------------------------
 
 Télécharger le dossier de l'[API](https://github.com/tguyonnet/api-sixt/archive/master.zip).
@@ -25,7 +25,7 @@ L'[API](https://github.com/tguyonnet/api-sixt/archive/master.zip) dépend des fr
 
 
 
-Les différentes fonctionnalités de l'API
+## Les différentes fonctionnalités de l'API
 ----------------------------------------------
 
 * liste de toutes les agences :
@@ -58,7 +58,7 @@ Les différentes fonctionnalités de l'API
 
 
 
-Exemples de fonctionnalités
+## Exemples de fonctionnalités
 ----------------------------------------------
 
 L'adresse http://tpapi.test/agency/6
