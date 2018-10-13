@@ -14,19 +14,13 @@ vers le site de la société.
 Comment utiliser l'API ?
 ----------------------------------------------
 
-Pour utiliser l'API vous devez installer composer, puis les framework suivant :
+Télécharger le dossier de l'[API](https://github.com/tguyonnet/api-sixt/archive/master.zip).
+Ensuite, pour utiliser l'API vous devez installer composer (s'il l'est deja faite simplement la commande
+'composer update' à la racine du projet).
+
+L'[API](https://github.com/tguyonnet/api-sixt/archive/master.zip) dépend des frameworks suivant :
 - Slim -> composer require slim/slim
 - Redbean -> composer require gabordemooij/redbean
-- Laravel valet
-
-Pour ce faire, vous devez effectuer les manipulations suivant:
-
-- Se rendre dans le dossier /tpapi/www/
-- Ouvrir une invite de terminal
-- Taper la commande 'valet park'
-- Puis 'valet link tpapi'
-- Se rendre dans le navigateur web
-- Entrer l'url 'tpapi.test' pour vérifier si le liens a bien été crée.
 
 
 
