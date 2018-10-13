@@ -14,11 +14,11 @@ vers le site de la société.
 ## Comment utiliser l'API ?
 ----------------------------------------------
 
-Télécharger le dossier de l'[API](https://github.com/tguyonnet/api-sixt/archive/master.zip).
-Ensuite, pour utiliser l'[API](https://github.com/tguyonnet/api-sixt/archive/master.zip) vous devez installer [composer](https://getcomposer.org/) (s'il l'est deja faite simplement la commande
+Télécharger le dossier de l'**[API](https://github.com/tguyonnet/api-sixt/archive/master.zip)**.
+Ensuite, pour utiliser l'**[API](https://github.com/tguyonnet/api-sixt/archive/master.zip)** vous devez installer **[composer](https://getcomposer.org/)** (s'il l'est deja faite simplement la commande
 'composer update' à la racine du projet).
 
-L'[API](https://github.com/tguyonnet/api-sixt/archive/master.zip) dépend des frameworks suivant :
+L'**[API](https://github.com/tguyonnet/api-sixt/archive/master.zip)** dépend des frameworks suivant :
 - **[Slim](https://www.slimframework.com/)** -> composer require slim/slim
 - **[Redbean](https://www.redbeanphp.com/index.php)** -> composer require gabordemooij/redbean
 
@@ -29,31 +29,31 @@ L'[API](https://github.com/tguyonnet/api-sixt/archive/master.zip) dépend des fr
 ----------------------------------------------
 
 * liste de toutes les agences :
-tpapi.test/agency
+_tpapi.test/agency_
 
 
 * Informations d'une agence (code, adresse, code postal, ville) :
-tpapi.test/agency/{agency_id}
+_tpapi.test/agency/{agency_id}_
 
 
 * Liste des types de véhicules d'une agence :
-tpapi.test/agency/{agency_id}/vehicle
+_tpapi.test/agency/{agency_id}/vehicle_
 
 
 * Liste des véhicules disponibles d'une agence :
-tpapi.test/agency/{agency_id}/{model_id}/{start_date}/{end_date}
+_tpapi.test/agency/{agency_id}/{model_id}/{start_date}/{end_date}_
 
 
 * Liste des réservations du client :
-tpapi.test/rental/{customer_id}
+_tpapi.test/rental/{customer_id}_
 
 
 * Liste des réservations du client depuis une date:
-tpapi.test/rental/{customer_id}/{start_date}
+_tpapi.test/rental/{customer_id}/{start_date}_
 
 
 * Enregistrer une réservation :
-tpapi.test/rental/create/{vehicle_id}/{start_date}/{end_date}/{kilometers}/{start_agency_id}/{end_agency_id}/{customer_id}
+_tpapi.test/rental/create/{vehicle_id}/{start_date}/{end_date}/{kilometers}/{start_agency_id}/{end_agency_id}/{customer_id}_
 
 
 
