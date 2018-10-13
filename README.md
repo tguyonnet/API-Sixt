@@ -1,4 +1,4 @@
-#titre1 API-Sixt - Documentation
+#titre API-Sixt - Documentation
 
 Qu'est ce que c'est ?
 -----------------------
