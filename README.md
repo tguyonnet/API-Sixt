@@ -15,7 +15,7 @@ Comment utiliser l'API ?
 ----------------------------------------------
 
 Télécharger le dossier de l'[API](https://github.com/tguyonnet/api-sixt/archive/master.zip).
-Ensuite, pour utiliser l'API vous devez installer composer (s'il l'est deja faite simplement la commande
+Ensuite, pour utiliser l'[API](https://github.com/tguyonnet/api-sixt/archive/master.zip) vous devez installer composer (s'il l'est deja faite simplement la commande
 'composer update' à la racine du projet).
 
 L'[API](https://github.com/tguyonnet/api-sixt/archive/master.zip) dépend des frameworks suivant :
