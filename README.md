@@ -14,8 +14,7 @@ vers le site de la société.
 Comment utiliser l'API ?
 -----------------------
 
-Pour utiliser l'API vous devez installer composer
-Puis les framework
+Pour utiliser l'API vous devez installer composer, puis les framework suivant :
 - Slim -> composer require slim/slim
 - Redbean -> composer require gabordemooij/redbean
 - Laravel valet
