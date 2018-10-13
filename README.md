@@ -64,8 +64,5 @@ L'[API](https://github.com/tguyonnet/api-sixt/archive/master.zip) dépend des fr
 L'adresse http://tpapi.test/agency/6
 Revoi les détails de l'agence avec l'id 6.
 
-id:         "6";
-address:	"48, Rue Jean Mermoz";
-ville:	    "Évreux";
-postcode:	"27000";
+> id:         "6" address:	"48, Rue Jean Mermoz" ville: "Évreux" postcode:	"27000"
 
