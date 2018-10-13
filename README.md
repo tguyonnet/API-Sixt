@@ -1,4 +1,4 @@
-# API-Sixt - Documentation
+<h1> API-Sixt - Documentation</h1>
 
 ## Qu'est ce que c'est ?
 ----------------------------------------------
